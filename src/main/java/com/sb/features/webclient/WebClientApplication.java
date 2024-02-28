@@ -1,4 +1,4 @@
-package com.sb.features;
+package com.sb.features.webclient;
 
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestClient;
 
 @SpringBootApplication
-public class FeaturesApplication {
+public class WebClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FeaturesApplication.class, args);
+		SpringApplication.run(WebClientApplication.class, args);
 	}
 
 	@Bean
